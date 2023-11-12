@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="meme.css">
+</head>
+<body>
+    <form id="memeForm">
+        <input type="text" id="topText" placeholder="Top text" required>
+        <input type="text" id="bottomText" placeholder="Bottom text" required>
+        <input type="url" id="imageUrl" placeholder="Image URL" required>
+        <button type="submit">Generate Dank Meme</button>
+    </form>
+
+    <div id="memeContainer"></div>
+
+    <script src="meme.js"></script>
+    
+</body>
+</html>
